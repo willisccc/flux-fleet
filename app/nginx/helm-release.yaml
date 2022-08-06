@@ -7,7 +7,7 @@ spec:
   releaseName: nginx
   chart:
     spec:
-      chart: bitnami/nginx
+      chart: nginx
       sourceRef:
         kind: HelmRepository
         name: bitnami-nginx
