@@ -5,5 +5,5 @@ metadata:
   namespace: fluxcd
 spec:
   interval: 1m
-  url: https://charts.bitnami.com/bitnami/charts
+  url: https://charts.bitnami.com/bitnami
   
