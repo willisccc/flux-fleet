@@ -1,0 +1,16 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: nginx
+  namespace: fluxcd
+spec:
+  releaseName: nginx
+  chart:
+    spec:
+      chart: helm
+      sourceRef:
+        kind: HelmRepository
+        name: bitnami-nginx
+  interval: 1m
+  targetNamespace: nginx
+  values: {}
