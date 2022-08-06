@@ -13,4 +13,6 @@ spec:
         name: bitnami-nginx
   interval: 1m
   targetNamespace: nginx
-  values: {}
+  values:
+    service:
+      type: "ClusterIP"
