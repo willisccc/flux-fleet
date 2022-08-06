@@ -4,5 +4,6 @@ metadata:
   name: bitnami-nginx
   namespace: fluxcd
 spec:
+  interval: 1m
   url: https://charts.bitnami.com/bitnami
   
