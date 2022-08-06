@@ -1,0 +1,6 @@
+kind: HelmRepository
+metadata:
+  name: bitnami-nginx
+spec:
+  url: https://charts.bitnami.com/bitnami
+  
